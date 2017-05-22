@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DataClasses">
+  <DataContextMoniker Name="/DataClassesDataContext" />
+  <nestedChildShapes>
+    <classShape Id="6ee083af-71d1-4dd4-9ff0-7658cfc4bc95" absoluteBounds="0.5, 0.5, 2, 2.5266442871093751">
+      <DataClassMoniker Name="/DataClassesDataContext/stu" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9d88bbdd-b971-4313-89aa-87f7be0f660d" absoluteBounds="0.515, 0.96, 1.9700000000000002, 1.966644287109375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="63d2f434-3689-435b-a017-e05b131534bd" absoluteBounds="2.625, 0.5, 2, 1.3805261230468751">
+      <DataClassMoniker Name="/DataClassesDataContext/province" />
+      <nestedChildShapes>
+        <elementListCompartment Id="29216e08-f7b6-45d2-a60e-1cd1e8e4e61f" absoluteBounds="2.64, 0.96, 1.9700000000000002, 0.820526123046875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="da979c59-401a-48f5-b122-7ea8787fe03b" absoluteBounds="2.625, 2, 2, 1.3805261230468751">
+      <DataClassMoniker Name="/DataClassesDataContext/city" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7a43cbd4-172d-44df-835b-7216962428a5" absoluteBounds="2.6399999999999997, 2.46, 1.9700000000000002, 0.820526123046875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,41 @@
+@import url(animate.css);
+body {
+    margin: 0px;
+   
+    font-family: "微软雅黑 Light","Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;
+    overflow-y: hidden;
+}
+
+.container {
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.content {
+    max-width: 500px;
+    margin: 10px auto;
+    background-color: white;
+    box-shadow: 0px 1px 5px rgba(124, 124, 124, 0.6);
+    animation: fadeInUp 0.5s ease;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.content:first-child{
+    margin-top: 20px;
+}
+.content h3{
+    margin: 0px;
+}
+.text {
+    padding: 10px;
+    height: 100px;
+    overflow: hidden;
+    text-indent: 32px;
+    transition: all 1s;
+}
+
+.text:hover{
+    overflow-y: scroll;
+    height: 70%;
+}

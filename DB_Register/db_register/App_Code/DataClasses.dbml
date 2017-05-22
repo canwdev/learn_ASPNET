@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="student" Class="DataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=localhost;Initial Catalog=student;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="studentConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.stu" Member="stu">
+    <Type Name="stu">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="stu_xh" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="stu_name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="stu_pass" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="stu_sex" Type="System.String" DbType="NVarChar(4)" CanBeNull="true" />
+      <Column Name="stu_pro" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="stu_city" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="stu_hobby" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="stu_etc" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+    </Type>
+  </Table>
+  <Table Name="dbo.province" Member="province">
+    <Type Name="province">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="province" Member="province1" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="province_id" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.city" Member="city">
+    <Type Name="city">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="city" Member="city1" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="province_id" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

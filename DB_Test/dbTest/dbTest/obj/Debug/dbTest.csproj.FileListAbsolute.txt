@@ -1,0 +1,5 @@
+D:\cs\dbTest\dbTest\dbTest\bin\dbTest.dll
+D:\cs\dbTest\dbTest\dbTest\bin\dbTest.pdb
+D:\cs\dbTest\dbTest\dbTest\obj\Debug\ResolveAssemblyReference.cache
+D:\cs\dbTest\dbTest\dbTest\obj\Debug\dbTest.dll
+D:\cs\dbTest\dbTest\dbTest\obj\Debug\dbTest.pdb

@@ -1,0 +1,52 @@
+@import url(widgets.css);
+
+body {
+    color: snow;
+    font-family: "微软雅黑 Light","Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;
+    margin: 0px auto;
+    padding: 0px;
+    overflow-y: hidden;
+}
+
+table {
+    width: 100%;
+    border: 0px;
+
+    padding: 0px;
+}
+
+iframe {
+    border: 0px;
+}
+
+.container {
+        box-shadow: 0px 1px 5px #868686;
+}
+
+.header {
+    padding-left:10px;
+    height: 45px;
+}
+
+.user_control 
+{
+    line-height:40px;
+    float:right;
+    padding-right:10px;
+}
+
+.article {
+    width: 100%;
+    height: 500px;
+    transition: all 0.3s;
+}
+
+.footer {
+   
+    height: 10px;
+    text-align:right
+}
+
+h1,h2 {
+    margin: 0px;
+}

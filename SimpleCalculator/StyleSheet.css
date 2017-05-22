@@ -1,0 +1,26 @@
+﻿body 
+{
+    
+}
+
+.calc_body 
+{
+    margin:0px auto;
+    border: 1px solid black;
+    min-height: 400px;
+    max-width: 300px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.input_box 
+{
+    margin: 20px;
+}
+
+.btn_number 
+{
+    margin: 3px;
+    min-height: 50px;
+    min-width: 50px;
+}
